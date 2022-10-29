@@ -1,0 +1,89 @@
+
+GRAPHQL
+
+In this we are going to see about GraphQl. For better understanding first we will see about the following things:
+
+API :
+
+API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other. Each time you use an app like Facebook, send an instant message, or check the weather on your phone, you’re using an API.
+
+
+What Is an Example of an API?
+
+When you use an application on your mobile phone, the application connects to the Internet and sends data to a server. The server then retrieves that data, interprets it, performs the necessary actions and sends it back to your phone. The application then interprets that data and presents you with the information you wanted in a readable way. This is what an API is - all of this happens via API.
+
+
+Rest API:
+
+REST stands for Representational State Transfer, and is an architectural style of creating web services that communicate with web resources.
+
+
+How does the web work?
+
+Before we continue learning about web APIs, take a moment ,What happens when you type 'www.google.com' and hit enter in your browser?
+
+In order to better understand how communication over the web works, let's break down what goes on behind-the-scenes when you access a website in your browser:
+
+URL → IP Address
+    When you enter a URL like www.google.com, that URL is translated into an IP address: a unique address representing a destination on the internet.
+Browser requests information from that IP
+    Once your browser knows the destination for the URL you typed, it makes a request to that destination.
+Server at IP responds to the request
+    The IP address our URL translated into leads to a web server: when this server receives an incoming request, it parses that request & generates a response. The response is then sent from the server, back to your browser.
+Browser renders the response
+    Once your browser receives the response to its original request, it will attempt to render the result in your browser window: e.g., displaying images, drawing clickable buttons, setting font sizes and colors, etc.
+
+You view the result! .
+
+
+Requests & Responses:
+
+When we communicate over the web, HTTP, or HyperText Transfer Protocol, is the 'language' that clients like our web browser use to communicate with web servers. HTTP defines a standardized way of communicating information through a series of requests and responses.
+
+A client makes a request, using HTTP, to a server. In return, the server will send a response back to the client.
+
+ What is REST API?
+ 
+ 	Sharing data between two or more systems has always been a fundamental requirement of software 
+ 	development.				 							 										.
+  	Multiple systems makes an HTTP request to a URL hosted by server.
+ 	RESTful API will define one or more endpoints.
+ 	Differing HTTP methods can be used on any endpoint which will create,read,update and delete operations.
+ 	
+ 	
+ What is GraphQl?
+ 	A query language for your API.
+ 	Ask for what you need,get exactly that.
+ 	Get many resources in a single request.
+ 	Describe what's possible with a type system.
+ 	A GraphQl server operates on a single URL/endpoint,usually/graphql, and all GraphQl requests for a g	
+ 	a given service should be directed at this endpoint.
+ 	
+ 	
+ GraphQL:  No more-Over fetching and under fetching
+ 
+ 	One of the most common problems with REST is that of over fetching and under fetching,
+ 	This happens because the only way for a client to download data is by hitting endpoints that returns 	
+ 	fixed data structures.
+ 	It's very difficult to design the API in a way that it's able to provide clients with their exact data needs.
+ 	
+ 	
+ Core concepts in GraphQl:
+ 	1.Fetching data with Queries
+ 	2.Writing Data with Mutations
+ 		a) Creating new data
+ 		b) Updating existing data
+ 		c) Deleting existing data
+ 	3.Schema
+ 	4.Resolvers
+ 	5.Realtime updates with subscriptions
+ 	
+ 	
+ 
+ 	
+ 	
+ 
+ 	
+ 	
+ 
+ 	
